@@ -39,7 +39,7 @@ public class updateTests {
     @Test(priority = 1)
     public void testUpdateLastNameToReddy() throws InterruptedException {
         editDetailsScreen.openEditSection();
-        editDetailsScreen.changeLastName("parasa");
+        editDetailsScreen.changeLastName("parasa vinod");
         editDetailsScreen.pressNextButton(2);
         editDetailsScreen.submitChanges();
  
